@@ -1,0 +1,4 @@
+
+========2=======
+1) Add third Gradian Descent type - Mini-batch gradient descent
+2) Compare various techniques of Gradient descent

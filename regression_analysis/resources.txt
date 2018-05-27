@@ -1,0 +1,11 @@
+1) Sentdex youtube tutorial shows how to write linear regression from scratch and many more videos.
+https://www.youtube.com/watch?v=JcI5Vnw0b2c
+
+
+2) Deriving of coefficients of linear and multiple regression is perfectly explained in youtube video by codeemporium https://www.youtube.com/watch?v=K_EH2abOp00&t=5s
+
+
+4)Hands-on machine learning - pages 108 - 145
+
+
+3) Gradient descent - 'Hands-on' page 116 

@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 
 
+from regression_analysis.sample_data import create_linear_data 
+
+
 def create_sample_data(n_points:int, variance = 1) -> Tuple[np.array, np.array]:
 	'''Function that only creates some sample x and y data that are linear	
 	Args:
