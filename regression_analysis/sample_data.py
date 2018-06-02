@@ -13,7 +13,17 @@ def create_linear_data(n_points:int, variance = 1) -> Tuple[np.array, np.array]:
 	Returns:
 	    Tuple[float, float]: Description
 	'''
-	x_values = np.array(variance * np.random.ranf(n_points))
+	x_values = np.array(2 * variance * np.random.ranf(n_points))
 	y_values = np.array(4 + 2* x_values + 0.2 * np.random.randn(n_points))
 
 	return x_values, y_values
+
+
+def create_polynomial_data(n_points: int = 100, variance = 1) -> Tuple[np.array, np.array]:
+	'''Simply creates random data that are polynomial with some random noise'''
+
+	x_values = np.array(2 * variance * np.random.ranf(n_points))
+	y_values = np.array(4 + 6 * x_values ** 2 - 5 * x_values + 0.15 * np.random.randn(n_points))
+
+	return x_values, y_values
+
